@@ -1,0 +1,16 @@
+{
+  "name": "com.hsrm.gameassets",
+  "version": "1.0.1",
+  "displayName": "GameAssets",
+  "description": "This package contains reusable prefabs and scripts for creating interactive 3D applications.\nA demo scene is included as well to illustrate the basic usage of most relevant components.",
+  "unity": "2019.4",
+  "dependencies": {
+    "com.unity.probuilder": "4.2.3",
+    "com.unity.postprocessing": "2.3.0",
+    "com.unity.textmeshpro": "2.0.1"
+  },
+  "author": {
+    "name": "Matthias Volland"
+  },
+  "hideInEditor": false
+}
