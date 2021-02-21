@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2077441208357909392}
   - component: {fileID: 2077441208357909393}
   - component: {fileID: 2077441208357909398}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2127,7 +2127,7 @@ GameObject:
   - component: {fileID: 4561355890205021662}
   - component: {fileID: 8096776013959135111}
   - component: {fileID: 1151805022023437332}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
