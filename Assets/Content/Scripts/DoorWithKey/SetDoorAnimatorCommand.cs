@@ -55,6 +55,7 @@ namespace DE.HSRM.MI.EscapeThePyramid.DoorWithKey
                     targetInventory.RemoveItem(inventoryItem, 1);
                     isActive = false;
                     ChangeLayers(gameObject, 0);
+                    GameObject.Find("/Core/UI/InventoryCanvas/InventoryPanel/Content").SetActive(false);
                     OnExecute?.Invoke(BoolValue);
                 } 
                 else
