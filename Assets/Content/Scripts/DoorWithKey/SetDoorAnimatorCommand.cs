@@ -69,7 +69,7 @@ namespace DE.HSRM.MI.EscapeThePyramid.DoorWithKey
             Instantiate(KeyInfoTextPrefab, transform.position, Quaternion.identity, transform);
         }
 
-        public static void ChangeLayers(GameObject go, int layer)
+            public static void ChangeLayers(GameObject go, int layer)
         {
             go.layer = layer;
             foreach (Transform child in go.transform)
@@ -77,5 +77,6 @@ namespace DE.HSRM.MI.EscapeThePyramid.DoorWithKey
                 ChangeLayers(child.gameObject, layer);
             }
         }
+
     }
 }

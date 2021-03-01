@@ -3580,7 +3580,6 @@ GameObject:
   - component: {fileID: 3984624082330534201}
   - component: {fileID: 3984624082330534200}
   - component: {fileID: 7206454950592619264}
-  - component: {fileID: 3887662224483045162}
   - component: {fileID: 4241551654668941114}
   m_Layer: 0
   m_Name: DoorOneSideBricksClosed
@@ -6593,7 +6592,7 @@ MonoBehaviour:
   OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3887662224483045162}
+      - m_Target: {fileID: 4241551654668941114}
         m_MethodName: set_BoolValue
         m_Mode: 0
         m_Arguments:
@@ -6604,7 +6603,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 3887662224483045162}
+      - m_Target: {fileID: 4241551654668941114}
         m_MethodName: ExecuteDelayed
         m_Mode: 4
         m_Arguments:
@@ -6615,25 +6614,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  boolValue: 0
---- !u!114 &3887662224483045162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3984624082330534198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55507e30d61bf4348a583490c950f0d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canExecute: 1
-  animator: {fileID: 7538616793227093162}
-  parameterName: isOpen
-  OnExecute:
-    m_PersistentCalls:
-      m_Calls: []
   boolValue: 0
 --- !u!114 &4241551654668941114
 MonoBehaviour:
@@ -6650,11 +6630,13 @@ MonoBehaviour:
   canExecute: 1
   animator: {fileID: 7538616793227093162}
   parameterName: isOpen
-  index: -1
   OnExecute:
     m_PersistentCalls:
       m_Calls: []
   boolValue: 0
+  targetInventory: {fileID: 0}
+  KeyInfoTextPrefab: {fileID: 8826924015180138587, guid: fc27faf169cc5d54ca3c5d527cfc535d,
+    type: 3}
 --- !u!1 &5267923627345087728
 GameObject:
   m_ObjectHideFlags: 0
