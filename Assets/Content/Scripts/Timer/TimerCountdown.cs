@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using DE.HSRM.MI.EscapeThePyramid.GameOver;
 
 namespace DE.HSRM.MI.EscapeThePyramid.Timer
 {
@@ -50,8 +51,8 @@ namespace DE.HSRM.MI.EscapeThePyramid.Timer
                 } 
                 else
                 {
-                    // TODO: GameOver Szene
                     textDisplay.GetComponent<Text>().text = "00:00";
+                    GameObject.Find("Core/UI/GameOver/Background").GetComponent<GameOverScreen>().Setup("Your time is up ...");
                 }
             } 
             else
