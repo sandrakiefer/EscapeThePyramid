@@ -15,7 +15,7 @@ namespace DE.HSRM.MI.EscapeThePyramid.GameOver
     
         public void Setup(string reason)
         {
-            canvas.SetVisible();
+            canvas.Show();
             reasonText.text = reason;
         }
 

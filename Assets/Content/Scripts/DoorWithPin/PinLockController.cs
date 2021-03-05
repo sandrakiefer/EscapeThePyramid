@@ -59,7 +59,7 @@ namespace DE.HSRM.MI.EscapeThePyramid.DoorWithPin
             go.GetComponent<Image>().color = baseColor;
             input = "";
             numberClicked = 0;
-            GetComponent<UICanvas>().Hide();
+            GetComponent<UICanvas>().SetHidden();
             ChangeLayers(GameObject.Find("PinLock"), 0);
             animator.SetBool(parameterName, true);
         }
