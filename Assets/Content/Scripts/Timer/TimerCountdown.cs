@@ -15,6 +15,7 @@ namespace DE.HSRM.MI.EscapeThePyramid.Timer
         [Range(0, 59)]
         public int secondsLeft = 30;
         public bool takingAway = false;
+        public bool playing = true;
 
         void Start()
         {
@@ -25,7 +26,10 @@ namespace DE.HSRM.MI.EscapeThePyramid.Timer
         {
             if (takingAway == false && secondsLeft > 0)
             {
-                StartCoroutine(TimerTake());
+                if (playing)
+                {
+                    StartCoroutine(TimerTake());
+                }
             } 
         }
 

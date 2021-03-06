@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using HSRM.Core.UI;
+using DE.HSRM.MI.EscapeThePyramid.Timer;
 
 namespace DE.HSRM.MI.EscapeThePyramid.WinGame
 {
@@ -11,7 +12,8 @@ namespace DE.HSRM.MI.EscapeThePyramid.WinGame
     {
 
         [SerializeField] private UICanvas canvas = null;
-    
+        public TimerCountdown timer;
+
         public void Show()
         {
             StartCoroutine(ending());
@@ -19,6 +21,7 @@ namespace DE.HSRM.MI.EscapeThePyramid.WinGame
 
         IEnumerator ending()
         {
+            timer.playing = false;
             canvas.Show();
             yield return new WaitForSeconds(10);
             SceneManager.LoadScene(0);
