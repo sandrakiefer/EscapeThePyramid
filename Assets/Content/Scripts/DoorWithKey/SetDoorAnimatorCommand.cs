@@ -6,7 +6,7 @@ using HSRM.Core.Commands;
 using HSRM.Core;
 using HSRM.Core.Collectables;
 
-namespace DE.HSRM.MI.EscapeThePyramid.DoorWithKey
+namespace DE.HSRM.MI.skief.EscapeThePyramid.DoorWithKey
 {
     public class SetDoorAnimatorCommand : BaseSetAnimatorCommand
     {
@@ -70,7 +70,7 @@ namespace DE.HSRM.MI.EscapeThePyramid.DoorWithKey
             Instantiate(KeyInfoTextPrefab, transform.position, Quaternion.identity, transform);
         }
 
-            public static void ChangeLayers(GameObject go, int layer)
+        public static void ChangeLayers(GameObject go, int layer)
         {
             go.layer = layer;
             foreach (Transform child in go.transform)

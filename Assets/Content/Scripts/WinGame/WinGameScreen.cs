@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using HSRM.Core.UI;
-using DE.HSRM.MI.EscapeThePyramid.Timer;
+using DE.HSRM.MI.skief.EscapeThePyramid.Timer;
 
-namespace DE.HSRM.MI.EscapeThePyramid.WinGame
+namespace DE.HSRM.MI.skief.EscapeThePyramid.WinGame
 {
     public class WinGameScreen : MonoBehaviour
     {

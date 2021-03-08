@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using HSRM.Core.UI;
 
-namespace DE.HSRM.MI.EscapeThePyramid.GameOver
+namespace DE.HSRM.MI.skief.EscapeThePyramid.GameOver
 {
     public class GameOverScreen : MonoBehaviour
     {

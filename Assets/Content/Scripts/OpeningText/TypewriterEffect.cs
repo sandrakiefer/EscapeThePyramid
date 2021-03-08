@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-namespace DE.HSRM.MI.EscapeThePyramid.OpeningText
+namespace DE.HSRM.MI.skief.EscapeThePyramid.OpeningText
 {
     public class TypewriterEffect : MonoBehaviour
     {

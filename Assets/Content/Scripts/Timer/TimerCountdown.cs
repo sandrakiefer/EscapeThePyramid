@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using DE.HSRM.MI.EscapeThePyramid.GameOver;
+using DE.HSRM.MI.skief.EscapeThePyramid.GameOver;
 
-namespace DE.HSRM.MI.EscapeThePyramid.Timer
+namespace DE.HSRM.MI.skief.EscapeThePyramid.Timer
 {
     public class TimerCountdown : MonoBehaviour
     {

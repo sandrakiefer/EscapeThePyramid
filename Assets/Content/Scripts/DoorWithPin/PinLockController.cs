@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using UnityEngine;
 using HSRM.Core.UI;
 
-namespace DE.HSRM.MI.EscapeThePyramid.DoorWithPin
+namespace DE.HSRM.MI.skief.EscapeThePyramid.DoorWithPin
 {
     public class PinLockController : MonoBehaviour
     {
@@ -83,13 +83,11 @@ namespace DE.HSRM.MI.EscapeThePyramid.DoorWithPin
                     input = "";
                     displayInput.text = input.ToString();
                     break;
-
                 case "C":
                     input = "";
                     numberClicked = 0;
                     displayInput.text = input.ToString();
                     break;
-
                 default:
                     numberClicked++;
                     input += valueEntered;

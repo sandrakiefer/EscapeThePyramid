@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using HSRM.Core.Commands;
 
-namespace DE.HSRM.MI.EscapeThePyramid.Start
+namespace DE.HSRM.MI.skief.EscapeThePyramid.Start
 {
     public class QuitApplicationController : BaseCommand
     {

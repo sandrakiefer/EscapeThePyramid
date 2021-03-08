@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-namespace DE.HSRM.MI.EscapeThePyramid.Start
+namespace DE.HSRM.MI.skief.EscapeThePyramid.Start
 {
     public class LevelLoader : MonoBehaviour
     {
@@ -21,7 +21,6 @@ namespace DE.HSRM.MI.EscapeThePyramid.Start
         {
             AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
             loadingScreen.SetActive(true);
-
             while (!operation.isDone)
             {
                 float progress = Mathf.Clamp01(operation.progress / .9f);
