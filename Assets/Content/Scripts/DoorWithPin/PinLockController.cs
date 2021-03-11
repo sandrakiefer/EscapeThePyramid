@@ -43,7 +43,7 @@ namespace DE.HSRM.MI.skief.EscapeThePyramid.DoorWithPin
             }
         }
 
-        public static void ChangeLayers(GameObject go, int layer)
+        private static void ChangeLayers(GameObject go, int layer)
         {
             go.layer = layer;
             foreach (Transform child in go.transform)
